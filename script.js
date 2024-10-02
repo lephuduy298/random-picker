@@ -40,9 +40,9 @@ function randomSelect(){
 
             setTimeout(() => {
                 unHighlightTag(randomTag)
-            }, 100)
+            }, 200)
         }
-    }, 100)
+    }, 200)
 
     setTimeout(() => {
         clearInterval(interval)
@@ -50,9 +50,9 @@ function randomSelect(){
         setTimeout(() => {
             const tag = pickrandomTag()
             highlightTag(tag)
-        }, 100)
+        }, 200)
 
-    }, times * 100)
+    }, times * 200)
     
 }
 
